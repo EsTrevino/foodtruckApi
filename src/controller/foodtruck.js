@@ -3,6 +3,8 @@ import {Router} from 'express';
 import Foodtruck from '../models/foodtruck.js';
 import Review from '../models/review.js';
 
+import {authenticate} from '../middleware/authmiddleware';
+
 export default({config, db}) => {
   let api = Router();
 
