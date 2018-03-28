@@ -59,7 +59,7 @@ export default({config, db}) => {
       foodtruck.name = req.body.name;
       foodtruck.foodtype = req.body.foodtype;
       foodtruck.avgcost = req.body.avgcost;
-      
+
       foodtruck.save(err => {
         if (err) {
           res.send(err);

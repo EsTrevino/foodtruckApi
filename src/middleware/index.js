@@ -1,4 +1,4 @@
-import {Router} from 'express';
+import { Router } from 'express';
 import config from '../config/index';
 
 export default ({config, db}) => {
